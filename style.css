@@ -1,5 +1,5 @@
 .landing-section{
-    height: 41rem;
+    height: 43rem;
     background-image: url(./img/bcimg1.jpg);
     background-position: center;
     background-size: cover;
@@ -79,4 +79,97 @@ body{
 }
 .newcalinfo>p{
     font-size: 1.35rem;
+}
+
+
+/* nav bar  */
+.container-custom{
+    display: flex;
+    align-items: center;
+    max-height: 35px
+}
+
+/* Style for header */
+.header {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for logo */
+.logo img {
+    width: 6.5rem; /* Adjust size as needed */
+    height: auto;
+    margin-left: 10px;
+}
+
+/* Style for navigation links */
+.nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #555;
+}
+
+/* Style for account and cart links */
+.navright a {
+    color: #333;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.navright a:hover {
+    color: #555;
+}
+.navright{
+    display: flex;
+}
+
+/* Style for account and cart icons */
+.account-icon,
+.cart-icon {
+    fill: #333;
+    width: 20px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Style for responsive layout */
+@media (max-width: 768px) {
+    .container-custom{
+        justify-content: space-between;
+    }
+    .nav {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .nav a {
+        /* display: block; */
+        margin-bottom: 10px;
+    }
+    .nav>.hidden-link{
+        display: none;
+    }
+
+
+    .navright a {
+        margin-right: 10px;
+    }
+}
+@media (max-width: 550px) {
+    nav{
+        display: none;
+    }
+
 }

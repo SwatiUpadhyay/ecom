@@ -231,3 +231,38 @@ body{
     cursor: pointer;
   }
 
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+
+  .subscribe-container {
+    display: flex;
+    align-items: center;    
+  }
+  .subscribe-button {
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  .email-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: right;
+  }
+
+  .subscribe-button:hover {
+    background-color: #45a049;
+  }
+
+

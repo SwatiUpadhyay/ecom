@@ -1,0 +1,62 @@
+.site-body{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    padding-top: 0px;
+}
+.messageus{
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    height: 31rem;
+    background-image: url(./img/contact/massagebg-img.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.messageus>div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: red; */
+    height: inherit;
+    max-width: 50%;
+    padding-left: 50px;
+}
+.messageus>div>h1{
+    font-size: 4rem;
+}
+.messageus>div>span{
+    font-size: smaller;
+}
+@media (max-width:500px) {
+
+    .messageus>div>h1{
+        font-size: 2rem;
+    }
+    .messageus>div>span{
+        font-size: xx-small;
+    }
+    .messageus>div{
+
+        max-width: 60%;
+        padding-left: 1rem;
+    }
+    .messageus{
+        height: 20rem;
+    }
+}
+/* contact us section
+.contact-methods{
+    display: flex;
+    gap: 1.5rem;
+}
+.contact-section{
+    display: flex;
+    flex: 1 2;
+
+}
+.contactusinfo{
+    max-width: 50%;
+} */
